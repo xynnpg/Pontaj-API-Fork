@@ -1,4 +1,4 @@
-# 🕐 Pontaj API
+# Pontaj API
 
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -8,19 +8,19 @@
 
 ---
 
-## 🇷🇴 Descriere
+## Descriere
 
 **Pontaj API** este un serviciu backend construit cu FastAPI, folosit de o aplicație mobilă și un panou web pentru gestionarea prezenței elevilor. Sistemul permite înscrierea elevilor prin cod matricol, generarea de token-uri QR cu durată scurtă de viață pentru verificarea prezenței și administrarea completă a elevilor și profesorilor.
 
-## 🇬🇧 Description
+## Description
 
 **Pontaj API** is a FastAPI backend service used by a mobile app and a web frontend to manage student attendance. It handles student enrollment via matriculation code, generates short-lived QR tokens for presence scanning, and provides full CRUD administration for students and teachers.
 
 ---
 
-## ✨ Funcționalități / Features
+## Funcționalități / Features
 
-| 🇷🇴 Română | 🇬🇧 English |
+| Română | English |
 |---|---|
 | Înregistrare elevi cu cod matricol | Student enrollment via matriculation code |
 | JWT de lungă durată pentru sesiuni mobile | Long-lived JWTs for mobile sessions |
@@ -34,9 +34,9 @@
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
-### 🇷🇴 Pornire rapidă
+### Pornire rapidă
 
 ```bash
 # 1. Clonează repo-ul
@@ -50,7 +50,7 @@ cp .env.example .env   # sau creează manual
 docker compose up --build
 ```
 
-### 🇬🇧 Quick start
+### Getting started
 
 ```bash
 # 1. Clone the repo
@@ -71,9 +71,9 @@ API disponibil / API available at: `http://localhost:8000`
 
 ---
 
-## 📚 Documentație / Documentation
+## Documentație / Documentation
 
-| Fișier / File | 🇷🇴 Descriere | 🇬🇧 Description |
+| Fișier / File | Descriere | Description |
 |---|---|---|
 | [docs/README.md](docs/README.md) | Index documentație | Documentation hub |
 | [docs/architecture.md](docs/architecture.md) | Arhitectura sistemului + diagrame | System architecture + diagrams |
@@ -86,16 +86,16 @@ API disponibil / API available at: `http://localhost:8000`
 
 ---
 
-## 🔗 Link-uri utile / Useful Links
+## Link-uri utile / Useful Links
 
-- 🌐 **Live API:** [api.pontaj.binarysquad.club](https://api.pontaj.binarysquad.club)
-- 📖 **Swagger UI:** [api.pontaj.binarysquad.club/docs](https://api.pontaj.binarysquad.club/docs)
-- 💻 **GitHub:** [github.com/xynnpg/Pontaj-API-Fork](https://github.com/xynnpg/Pontaj-API-Fork)
+- **Live API:** [api.pontaj.binarysquad.club](https://api.pontaj.binarysquad.club)
+- **Swagger UI:** [api.pontaj.binarysquad.club/docs](https://api.pontaj.binarysquad.club/docs)
+- **GitHub:** [github.com/xynnpg/Pontaj-API-Fork](https://github.com/xynnpg/Pontaj-API-Fork)
 
 ---
 
-## 🤝 Contribuții / Contributing
+## Contribuții / Contributing
 
-**🇷🇴** Pentru modificări de documentație, deschide un PR mic cu actualizări clare și incrementale. Pentru modificări de cod, descrie comportamentul în corpul PR-ului.
+**RO** Pentru modificări de documentație, deschide un PR mic cu actualizări clare și incrementale. Pentru modificări de cod, descrie comportamentul în corpul PR-ului.
 
-**🇬🇧** For documentation changes, open a small PR with clear, incremental updates. For code changes, describe the behavior in the PR body.
+**EN** For documentation changes, open a small PR with clear, incremental updates. For code changes, describe the behavior in the PR body.
